@@ -166,7 +166,7 @@ document.getElementById("inHoaDon").onclick = function () {
     giaTienCho = (1 * giaTienCho) / 1000;
     tongTienCho = tongTien * 1000;
   }
-  document.getElementById("modalBody").innerHTML = `<div class="table">
+  document.getElementById("modalBody").innerHTML = `<div class="tab">
   <table border="1" style="cellpadding='5px'">
     <tr>
       <th colspan="4">CHI TIẾT HÓA ĐƠN</th>

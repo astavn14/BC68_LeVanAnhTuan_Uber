@@ -265,10 +265,6 @@ iframe {
   pointer-events: none;
 }
 
-td {
-  text-align: right;
-}
-
 .focus-input100::before {
   content: "";
   display: block;
@@ -330,13 +326,17 @@ textarea.input100 {
   overflow: hidden;
 }
 
-.table th {
+.tab th {
   text-align: center;
-}
-.table,
-th,
-td {
   border: 1px solid black;
+}
+.tab {
+  border: 1px solid black;
+}
+
+.tab td {
+  border: 1px solid black;
+  text-align: right;
 }
 .contact100-form-bgbtn {
   position: absolute;
